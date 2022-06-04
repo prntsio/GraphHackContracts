@@ -1,0 +1,19 @@
+{
+    payload: {
+      description: "Distorted's Super Sick Beat Submission"
+      sourceFileName: "BigFat808Beat.wav"
+      sourceFileHash: "Qmbj1YhaGYHAdMBrVum7BAJP5ECJuarLcYaRFdEzDEBFN2"
+      sourceDirectoryHash: "QmY4GnpgS3eF95qShPDGr7zLXwffBbybF2aeY4mqoEZcCm"
+      fulfillers: [
+        "distorted.eth", "harrish.eth"
+      ]
+      payoutAmounts: [
+        [50, 50]
+      ]
+    },
+    meta: {
+      platform: "PRNTS Bounties"
+      schemaVersion: "1.0"
+      schemaName: "standardSchema"
+    }
+  }

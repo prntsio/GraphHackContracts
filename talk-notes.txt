@@ -1,0 +1,21 @@
+Camila Ramos - GraphQL in Web3
+you as a dev write resolvers to grab raw data from chain, and transform it into the info you're looking for 
+
+indexing refers to the process of turning unordered data into an order that maximizes the efficinecy of a query made against that data 
+- when you go into a library, you don't look at every book - there's a system to help you find the category, then alphabetical 
+
+scenario: you want to build an API that allows users to search for an NFT with a specific trait 
+- option one: take each unique tokenID which maps to a woman, read metadata, aggregate it, and write a program to filter it 
+- two: run your own server to process and store transactions, save in DB, index DB, and build an API to expose data via an endpoint 
+- three: query with a subgraph 
+
+anyone can make a subgraph, and once it's deployed anyone can access it 
+
+subgraph acts as a middle layer between UI and contracts 
+
+developing
+- define your data source (contract addresses)
+- define data that should be indexed (NFT traits we're querying by)
+- events to listen for (new NFT minted or sold, ERC721 transfer contract call)
+- resolvers when events are emitted 
+    - logic that you write to do something with the data you get and transform it into your desired function 

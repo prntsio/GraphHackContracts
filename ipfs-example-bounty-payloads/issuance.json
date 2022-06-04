@@ -1,0 +1,20 @@
+{
+    payload: {
+      title: "420's Big Beats"
+      description: "I need a beat with the fattest 808's the world has ever heard"
+      fulfillmentAmount: 1000
+      categories: ["Beats", "Trap"]
+      expectedRevisions: 2
+      difficulty: "hard"
+      privateFulfillments: false
+      fulfillersNeedApproval: true
+      ipfsFilename: "SuperSickTrapBeatBounty.pdf"
+      ipfsHash: "Qmbj1YhaGYHAdMBrVum7BAJP5ECJuarLcYaRFdEzDEBFN2"
+      webReferenceURL: "https://github.com/PrntNft/PRNTS-Bounty-Portal-Smart-Contracts/issues"
+    },
+    meta: {
+      platform: "PRNTS Bounties"
+      schemaVersion: "1.0"
+      schemaName: "standardSchema"
+    }
+  }

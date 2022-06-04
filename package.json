@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "brownie": "^0.9.9",
+    "ganache-cli": "^6.12.2"
+  }
+}

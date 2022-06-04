@@ -1,0 +1,25 @@
+Frontend
+- Buttons to map to contract functions 
+
+Subgraph 
+- Use existing Gitcoin bounty contract as our base so we don't have to deploy our own contract on mainnet 
+
+IPFS
+- How do we upload a file from the frontend and have that end up on IPFS?
+    - Bounty issuers can upload bounty PDF
+    - Bounty fulfillers can upload music files once they're approved 
+
+
+LivePeer
+- Redeploy their contract
+- Mint the two video NFTs 
+- Test their JS code
+    - Make sure to switch out the contract address with our new one 
+
+
+Verita
+- Messaging between parties for project coordination 
+
+
+EPNS
+- Notifications about bounty status 
